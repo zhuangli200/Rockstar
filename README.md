@@ -32,7 +32,6 @@ Example commands:
 `python ./rockstar.py subset --i Extract/job004/particles.star --subset /abs/path/to/J1112/particles_selected.cs --o J1112.star `  
   
 > To use a exclude mode  
-  
 The subset mode was designed to exclude particles/images from the input star file. The files provided as exclude parameters is not necessarily as star file.  
 `python ./rockstar.py exclude --i Extract/job004/particles.star --exclude Class2D/job005/run_it025_data.star Class2D/job006/run_it025_data.star --o new.star `  
   
