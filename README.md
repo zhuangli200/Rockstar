@@ -8,8 +8,7 @@ This program includes the following files:
 - MyTools.py, Customized Print tools  
 
 **Prerequisite:**  
-To properly run the rockstar.py, one can create an conda environment with the rock.yml configuration file.  
-Alternatively, one can run `conda env create --name=hello python=3.8.8 pandas=1.2.3 numpy=1.19.2`  
+To properly run the rockstar.py, one can create an conda environment with the rock.yml configuration file `conda env create -f ./rock.yml`. Alternatively, one can run `conda env create --name=hello python=3.8.8 pandas=1.2.3 numpy=1.19.2`  
 
 **Usage:**  
 > To use the hr mode  
@@ -38,6 +37,6 @@ Example commands:
 The exclude mode was designed to exclude particles/images from the input star file. The files provided as exclude parameters is not necessarily as star file.  
 `python ./rockstar.py exclude --i Extract/job004/particles.star --exclude Class2D/job005/run_it025_data.star Class2D/job006/run_it025_data.star --o new.star `  
   
-Zhuang Li,  
-Purdue University,  
+Zhuang Li  
+zhuangli200@gmail.com  
 Mar 13, 2021  
