@@ -1,4 +1,5 @@
 To properly run the rockstar.py, one can create an conda environment with the rock.yml configuration file.
+Alternatively, one can run "conda env create --name=hello python=3.8.8 pandas=1.2.7 numpy=1.2.3"
 
 To use the hr mode,
 The _data.star from last iteration of 2D classification, the resulting class average stacks, the dimensions of the images from which particles are extracted, and an output filename need to be provied.
