@@ -7,7 +7,7 @@ This program includes the following files:
 - MyTools.py, contanining customized printing tools  
 
 **Prerequisite:**  
-To properly run the rockstar.py, one can create an conda environment with the rock.yml configuration file `conda env create -f ./rock.yml`. Change the name on the first line of rock.yml fille if you prefer another environment name. Before you use the program, make sure activate the conda environment by `conda activate your_env_name`.
+To properly run the rockstar.py, one can create an conda environment with the rock.yml configuration file `conda env create -f ./rock.yml`. Change the environment name on the first line of rock.yml fille if you prefer another one. Before you use the program, make sure activate the conda environment by `conda activate your_env_name`.
 
 **Usage:**  
 > To use the hr mode  
