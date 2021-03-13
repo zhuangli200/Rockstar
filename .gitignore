@@ -1,1 +1,3 @@
 /trash
+*.pyc
+__pycache__
