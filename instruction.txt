@@ -30,3 +30,7 @@ The output star file is exactly a subset of the input star file, and can be dire
 
 Example commands:
 python ./rockstar.py subset --i Extract/job004/particles.star --subset /abs/path/to/J1112/particles_selected.cs --o J1112.star 
+
+Zhuang Li,
+Purdue University,
+Mar 13, 2021
