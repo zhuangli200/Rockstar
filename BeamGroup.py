@@ -1,6 +1,8 @@
 #! /usr/bin/python
 ########################################################################
 # Written by Zhuang Li, Purdue University. Last modified at 2020-03-13 #
+# Tested on sklearn, matplotlib, and some others.                      #
+# Still under development...                                           #
 ########################################################################
 from sklearn.cluster import KMeans
 import rockstar
