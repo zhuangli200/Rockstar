@@ -6,6 +6,7 @@ This program includes the following files:
 - STAR.py, module file that defines a STAR class  
 - RelionTools.py, A collection of functions which are used for parsing relion log files and output.  
 - MyTools.py, Customized Print tools  
+
 **Prerequisite:**  
 To properly run the rockstar.py, one can create an conda environment with the rock.yml configuration file.  
 Alternatively, one can run `conda env create --name=hello python=3.8.8 pandas=1.2.3 numpy=1.19.2`  
