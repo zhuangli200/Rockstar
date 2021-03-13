@@ -2,15 +2,15 @@
 This program, called rockstar, is developed to facilitate the cryo-EM data processing with RELION.  
 This program works in three modes, namely subset, hr, and exclude mode.  
 This program includes the following files:  
-  rockstar.py         -> Main program  
-  STAR.py             -> module file that defines a STAR class  
-  RelionTools.py      -> A collection of functions which are used for parsing relion log files and output.  
-  MyTools.py          -> Customized Print tools  
+- rockstar.py, Main program  
+- STAR.py, module file that defines a STAR class  
+- RelionTools.py, A collection of functions which are used for parsing relion log files and output.  
+- MyTools.py, Customized Print tools  
 **Prerequisite:**  
 To properly run the rockstar.py, one can create an conda environment with the rock.yml configuration file.  
-Alternatively, one can run `conda env create --name=hello python=3.8.8 pandas=1.2.7 numpy=1.2.3`  
+Alternatively, one can run `conda env create --name=hello python=3.8.8 pandas=1.2.3 numpy=1.19.2`  
 **Usage:**  
-> To use the hr mode,  
+> To use the hr mode  
 The _data.star from last iteration of 2D classification, the resulting class average stacks, the dimensions of the images from which particles are extracted, and an output filename need to be provied. Optionally, if the class average stacks are too small for you visualize, you can choose to specify a scale factor to make them bigger.  
   
 Example commands:  
@@ -18,10 +18,8 @@ Example commands:
 `python ./rockstar.py hr --i Class2D/jobxxx/run_it025_data.star --mrcs Class2D/jobxxx/run_it025_classes.mrcs --micsx 5760 --micsy 4092 --o new_coords.star  --scale 2`  
   
 After successful running, the individual class average from stack will pop out for you to work on.  
-For the class that you want re-define the center, mouse click the center of the sub-region of interest.  
-If not happy with the click, multiple clicks are allowed, and the program will only take the last click.  
-If you want to discard some of the class, just close the display window without doing anything.  
-If you dont want change the center but want to keep the class, middle mouse click anywhere in the image.  
+For the classes that you want re-define the center, left mouse click the center of the sub-region of interest.  If not happy with the click, multiple clicks are allowed, and the program will only take the last click.  
+For the classes that you wanna discard, just close the display window without doing anything. For the classes that you dont want change the center but want to keep, middle mouse click anywhere in the image.  
 After navigating all the classses, a star file with new coordinates will be generated, whch can be fed into RELION for particle extraction.  
   
   
