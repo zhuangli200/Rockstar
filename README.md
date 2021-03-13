@@ -35,7 +35,7 @@ Example commands:
   
 > To use a exclude mode  
 
-The subset mode was designed to exclude particles/images from the input star file. The files provided as exclude parameters is not necessarily as star file.  
+The exclude mode was designed to exclude particles/images from the input star file. The files provided as exclude parameters is not necessarily as star file.  
 `python ./rockstar.py exclude --i Extract/job004/particles.star --exclude Class2D/job005/run_it025_data.star Class2D/job006/run_it025_data.star --o new.star `  
   
 Zhuang Li,  
