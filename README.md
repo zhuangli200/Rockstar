@@ -28,7 +28,7 @@ After navigating all the classses, a star file with new coordinates will be gene
   
 > To use the subset mode  
 
-The subset mode was designed for the situation that the data processing begins from zero with RELION. What is only retrieved from the Cryosparc file in the the columns equivalen to _rlnImageName column in RELION, other information such as ctf and alignment info are discarded. To convert all the columns of cs to star, csparc2star.py in pyem is recommended. The user must gurantee the cs file are derived form the input star file. Otherwise, it fails. The output star file is exactly a subset of the input star file, and can be directly fed into RELION for further processing.  
+The subset mode was designed for the situation that you begin the data processing with RELION, jump to cryosparc for some 2D or 3D selection, and want to jump back to RELION. What is only retrieved from the input Cryosparc file is the the columns equivalen to _rlnImageName column in RELION, other information such as ctf and alignment info are discarded. To convert all the columns of cs to star, csparc2star.py in pyem is recommended. The user must gurantee the cs file is derived form the input star file, otherwise it fails. The output star file is exactly a subset of the input star file, and can be **directly fed into RELION** for further processing.  
   
 Example commands:  
 `python ./rockstar.py subset --i Extract/job004/particles.star --subset /abs/path/to/J1112/particles_selected.cs --o J1112.star `  
