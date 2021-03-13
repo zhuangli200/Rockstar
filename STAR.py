@@ -1,6 +1,6 @@
 ############################################################################
 #   Written by Zhuang Li, Purdue University. Last modified at 2021-03-13   #
-#           Tested on Python 3.7.0 Pandas v0.22.0  Numpy v1.19.1           #
+#           Tested on Python 3.8.8 Pandas v0.22.0  Numpy v1.19.1           #
 #           Tested on RELION 3.0 / 3.1, Cryosparc 2.9                      #
 ############################################################################
 import argparse
