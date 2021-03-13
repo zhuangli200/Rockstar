@@ -1,3 +1,12 @@
+Introduction to this program:
+This program, called rockstar, is developed to facilitate the cryo-EM data processing with RELION.
+
+This program includes the following files:
+  rockstar.py         -> Main program
+  STAR.py             -> module file that defines a STAR class
+  RelionTools.py      -> A collection of functions which are used for parsing relion log files and output.
+  MyTools.py          -> Basic Print tools with style
+
 To properly run the rockstar.py, one can create an conda environment with the rock.yml configuration file.
 Alternatively, one can run "conda env create --name=hello python=3.8.8 pandas=1.2.7 numpy=1.2.3"
 
