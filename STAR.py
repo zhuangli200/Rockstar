@@ -209,7 +209,7 @@ class STAR():
 
     #Speficialized function for STAR Modification
     def human_recenter(self, minx, miny, maxx, maxy, d, inplace = True):
-        df = self._content[self._content.rlnClassNumber.isin(d.keys())]
+        df = self._content[self._content.rlnClassNumber.isin([int(key) for key in d.keys()])]
         if self.get_star_version() == "3.0":
             downscale_factor = int(input("Please provide the downscale factor of parcticle stacks:\n"))
             for idx, row in df.iterrows():
